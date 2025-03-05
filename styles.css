@@ -1,0 +1,18 @@
+#root {
+    position: fixed;
+}
+
+.container {
+    position: relative;
+}
+
+#text {
+    position: absolute;
+    left: 25%;
+    padding-top: 270px;
+    height: 600px;
+    font-size: 60px;
+    color: white;
+    font-family: monospace;
+    text-shadow: 1px, 1px, 10px, green;
+}
