@@ -212,21 +212,3 @@ for (let i = 0; i < textArr.length; i++) {
         }
     }, currentIterationTimer * i);
 }
-
-// the matrix rain, types "hello, world..." clears, then types "I am a software developer..." then "Wake up, Neo..."
-
-// broken down explanation for planning:
-/**
- * Window and background
- * Canvas to draw the text as it falls
- * Each raindrop is a changing character (four changes per `tick` down)
- * As it ticks down, it leaves behind a random character
- * this random character fades over time
- * The initial raindrop has a ranged width and height
- * 
- * create a width and height grid of the canvas
- * create an individual letterdrop, which begins at random grid position in upper quarter
- * if at upper end of grid, opacity should be halved
- * the letter drop ticks down every (random 0.2 or 0.4 or 0.8s )
- * 
- */
